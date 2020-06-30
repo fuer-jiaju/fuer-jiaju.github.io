@@ -3,78 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>嘉居-关于我们</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./css/aboutus.css">
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.js"></script>
-    <script src="js/index.js"></script>
-    <script src="./js/aboutus.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1,maximum-scale=1">    <title>嘉居-关于我们</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="top-nav">
-            <div class="container header">
-                <div class="col-md-2 col-sm-2 logo">
-                    <img src="images/logo.png" alt="">
-                </div>
-                <div class="col-md-7 col-sm-8 daohang">
-                    <ul class="nav-top">
-                        <li>
-                            <a href="index.html">首页</a>
-                        </li>
-                        <li>
-                            <a href="products.html">商品</a>
-                        </li>
-                        <li>
-                            <a href="service.html">服务保障</a>
-                        </li>
-                        <li>
-                            <a href="activity.html">活动</a>
-                        </li>
-                        <li>
-                            <a href="tuandui.html">团队</a>
-                        </li>
-                        <li class="active">
-                            <a href="#">关于我们</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-2 fudaohang">
-                    <ul>
-                        <li>
-                            <a href="#">English</a>
-                        </li>
-                        <li>
-                            <a href="javascript:" class="loginBtn" >
-                                <span class="glyphicon glyphicon-user" id="btn"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="glyphicon glyphicon-star"></span>
-                            </a>
-                        </li>
-                        <li class="sousuo">
-                            <input type="text" style="width: 100px; height: 30px;">
-                            <a href="#">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <nav class="container">
+			<div class="col-md-2 logo ">
+				<a href="#"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="burger">
+				<div class="top-line"></div>
+				<div class="middle-line"></div>
+				<div class="bottom-line"></div>
+			</div>
+			<ul class="col-md-7 nav-left">
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="products.html">商品</a>
+				</li>
+				<li>
+					<a href="service.html">服务保障</a>
+				</li>
+				<li>
+					<a href="activity.html">活动</a>
+				</li>
+				<li>
+					<a href="tuandui.html">团队</a>
+				</li>
+				<li class="active">
+					<a href="#">关于我们</a>
+				</li>
+				<li class="sousuo">
+					<input type="text" style="width: 100%; height: 30px;" placeholder="请输入关键字">
+					<a href="#">
+						<span class="glyphicon glyphicon-search"></span>
+					</a>
+				</li>
+			</ul>
+			<ul class="nav-right ">
+				<li class="none">
+					<a href="#">English</a>
+				</li>
+				<li class="denglu">
+					<a href="javascript:" class="loginBtn">
+						<span class="glyphicon glyphicon-user" id="btn"></span>
+					</a>
+				</li>
+				<li class="none">
+					<a href="#">
+						<span class="glyphicon glyphicon-star"></span>
+					</a>
+				</li>
+				<li class="sousuo none">
+					<input type="text" style="width: 100px; height: 30px;" placeholder="请输入关键字">
+					<a href="#">
+						<span class="glyphicon glyphicon-search"></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
         
+    </header>
+    <section>
         <div class="lunbo">
             <img src="images/changtiao4.jpg" alt="">
         </div>
-    </header>
-    <section>
-        <div class="container">
+        <div class="container about">
             <div class="menu">
                 <div class="center">
                     <h2>一直坚持，不断进步</h2>
@@ -163,6 +165,239 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/4.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/1.html">
+                        <p>生活，哪有这么简单</p>
+                        <p>每个认真生活的人都值得被认真对待，别把愿望，等成遗憾。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/1.html"><img src="images/weare/weare_list/3.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/1.html"><img src="images/weare/weare_list/2.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/2.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/2.html">
+                        <p>因为顾家，所以爱家</p>
+                        <p>曾经是梦想家，梦没了，只剩想家。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/2.html"><img src="images/weare/weare_list/4.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/2.html"><img src="images/weare/weare_list/7.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/1.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/3.html">
+                        <p>年轻就要醒着拼</p>
+                        <p>除了汗水，什么水都不要浪费，人生没有白走的路，每一步都算数。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/3.html"><img src="images/weare/weare_list/8.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/3.html"><img src="images/weare/weare_list/5.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/3.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/4.html">
+                        <p>心态放平</p>
+                        <p>过去是历史，不管受到了多大的挫折、打击，这些都不重要，关键是你对未来是否充满希望。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/4.html"><img src="images/weare/weare_list/2.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/4.html"><img src="images/weare/weare_list/6.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/8.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/5.html">
+                        <p>人生如戏</p>
+                        <p>真正的人生，是内心郁郁葱葱蓬勃灵动地对生活的热爱，真正的碧水，是内心坦坦荡荡从从容容的宁静祥和。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/5.html"><img src="images/weare/weare_list/3.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/5.html"><img src="images/weare/weare_list/4.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/6.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/6.html">
+                        <p>请别放弃希望
+                        </p>
+                        <p>要相信，这个世界里美好总要多过阴暗，欢乐总要多过苦难，还有很多事，值得你一如既往的相信。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/6.html"><img src="images/weare/weare_list/7.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/6.html"><img src="images/weare/weare_list/8.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/7.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/7.html">
+                        <p>再坚持一会</p>
+                        <p>你所做的事情，也许暂时看不到成果，但不要灰心或焦虑，你不是没有成长，而是在扎根。</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/7.html"><img src="images/weare/weare_list/3.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/7.html"><img src="images/weare/weare_list/5.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+
+            <div id="mycarousel" class="lunbo lb carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active zhu">
+                        <img src="images/weare/weare_list/8.png">
+                    </div>
+                    <a class="lb_p" href="./abourus_list/8.html">
+                        <p>你，已经很优秀了</p>
+                        <p>如果你看到前面有阴影，别怕，那是因为你的背后有阳光</p>
+                    </a>
+                    <div class="item">
+                        <a href="./abourus_list/8.html"><img src="images/weare/weare_list/5.png"></a>
+                    </div>
+                    <div class="item">
+                        <a href="./abourus_list/8.html"><img src="images/weare/weare_list/7.png"></a>
+                    </div>
+                </div>
+                <!-- <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <a href="#mycarousel" class="carousel-control left" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control right" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+            </div>
+        </div>
         <div class="mr"></div>
     </section>
     <footer>
@@ -227,7 +462,7 @@
                     <span>&nbsp;</span>
                     <span class="login_reset">
                         <input type="reset" value="登录">
-                        <a href="">注册</a>
+						<a href="forget/register.html">注册</a>
                         <a href="forget/phone_retrieval.html">忘记密码？</a>
                     </span>
                 </div>
@@ -242,7 +477,6 @@
             let close = document.getElementsByClassName('closeLogin')[0];
             usBtn.onclick = () => {
                 bg.style.display = 'block';
-                
             }
             close.onclick = () => {
                 bg.style.display = 'none';
@@ -271,6 +505,15 @@
                     hovers(i);//鼠标进入传索引进函数进行动画
                 }
             }
+
+            const burger = document.querySelector(".burger");
+            const navMenu = document.querySelector("nav ul")
+
+			burger.addEventListener("click", () => {
+				burger.classList.toggle("active");
+				navMenu.classList.toggle("open");
+				navMenu.style.display = 'block';
+			});
 
             //进来的时候默认为第一个
             hover(0);

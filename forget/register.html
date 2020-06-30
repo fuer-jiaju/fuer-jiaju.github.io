@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1,maximum-scale=1">    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/activity.css">
+    <link rel="stylesheet" type="text/css" href="../css/forget.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <title>嘉居-身份验证-其他验证</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+			<div class="col-md-2 logo ">
+				<a href="#"><img src="../images/logo.png" alt=""></a>
+			</div>
+			<div class="burger" >
+				<div class="top-line"></div>
+				<div class="middle-line"></div>
+				<div class="bottom-line"></div>
+			</div>
+			<ul class="col-md-7 nav-left">
+				<li>
+					<a href="../index.html">首页</a>
+				</li>
+				<li>
+					<a href="../products.html">商品</a>
+				</li>
+				<li>
+					<a href="../service.html">服务保障</a>
+				</li>
+				<li>
+					<a href="../activity.html">活动</a>
+				</li>
+				<li>
+					<a href="../tuandui.html">团队</a>
+				</li>
+				<li>
+					<a href="../aboutus.html">关于我们</a>
+				</li>
+				<li class="sousuo">
+					<input type="text" style="width: 100%; height: 30px;" placeholder="请输入关键字">
+					<a href="#">
+						<span class="glyphicon glyphicon-search"></span>
+					</a>
+				</li>
+			</ul>
+			<ul class="nav-right ">
+				<li class="none">
+					<a href="#">English</a>
+				</li>
+				<li class="denglu">
+					<a href="javascript:" class="loginBtn">
+						<span class="glyphicon glyphicon-user" id="btn"></span>
+					</a>
+				</li>
+				<li class="none">
+					<a href="#">
+						<span class="glyphicon glyphicon-star"></span>
+					</a>
+				</li>
+				<li class="sousuo none">
+					<input type="text" style="width: 100px; height: 30px;" placeholder="请输入关键字">
+					<a href="#">
+						<span class="glyphicon glyphicon-search"></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+        
+    </header>
+    <div class="lunbo">
+        <img src="../images/changtiao4.jpg" alt="">
+    </div>
+    <section>
+        <div class="menu">
+            <div class="center">
+                <h2>注册</h2>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="zhaohui">
+                <div class="">
+                    <p>请认真填写下面的资料，为了防止他人冒充，只有当你提供的资料足够完整且真实时，才能通过用户注册。</p>
+                    <p>全部资料仅用于用户注册并受到嘉居<a href="#">隐私政策</a> 保护</p>
+                    <div>
+                        <p>
+                            <b>您的真实姓名</b>
+                            <span class="hui">（必填）</span>
+                        </p>
+                        <p>
+                            <input type="text" placeholder="请输入你的姓名">
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <b>证件号码</b>
+                            <span class="hui">（必填）</span>
+                        </p>
+                        <select name="" id="">
+                            <option value="身份证">身份证</option>
+                            <option value="护照">护照</option>
+                            <option value="回乡证">回乡证</option>
+                        </select>
+                        <p>
+                            <input type="text" placeholder="请输入你的证件号码">
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <b>手机号</b>
+                            <span class="hui">（必填）</span>
+                        </p>
+                        <select name="" id="">
+                            <option value="中国大陆 +86">中国大陆 +86</option>
+                            <option value="中国香港 +852">中国香港 +852</option>
+                            <option value="中国澳门 +853">中国澳门 +853</option>
+                            <option value="中国台湾 +886">中国台湾 +886</option>
+                        </select>
+                        <p>
+                            <input type="text" placeholder="请输入你的手机号">
+                        </p>
+                        <p class="xian"></p>
+                    </div>
+                    <div>
+                        <p>
+                            <b>验证邮箱</b>
+                            <span class="hui">（必填）</span>
+                        </p>
+                        <p>
+                            <input type="text" placeholder="请输入你的邮箱">
+                        </p>
+                        <p class="xian"></p>
+                    </div>
+                    <div>
+                        <p>
+                            <b>设置密码</b>
+                            <span class="hui">（必填）</span>
+                        </p>
+                        <p>
+                            <input type="text" placeholder="请输入密码">
+                        </p>
+                        <p>
+                            <b>确认密码</b>
+                            <span class="hui">（必填）</span>
+                        </p>
+                        <p>
+                            <input type="text" placeholder="请确认密码">
+                        </p>
+                        <p class="xian"></p>
+                    </div>
+                    <p class="last_p bottom-xian">
+                        <input type="radio">
+                        我已同意并阅读
+                        <a href="phone_retrieval.html">《嘉居用户注册协议》</a>
+                    </p>
+                    <div class="forget_reset">
+                        <a href="newpassword.html">
+                            <input type="reset" value="立即注册">
+                        </a>
+                    </div>
+                    <p class="last_p bottom-xian">
+                        我已经注册，点击
+                        <a href="#">登录</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mr">
+        <div class="container">
+            <ul class=" nav_bottom">
+                <li class="col-md-2 col-xs-12">
+                    <p>关于我们</p>
+                    <p><a href="#">关于嘉居</a></p>
+                    <p><a href="#">政策与条款</a></p>
+                    <p><a href="#">联系我们</a></p>
+                </li>
+                <li class="col-md-2 col-xs-12">
+                    <p>资源与社区</p>
+                    <p><a href="#">应用方案</a></p>
+                    <p><a href="#">帮助中心</a></p>
+                </li>
+                <li class="col-md-2 col-xs-12">
+                    <p>实用信息</p>
+                    <p><a href="#">信息留言</a></p>
+                    <p><a href="#">法律声明</a></p>
+                    <p><a href="#">产品合集</a></p>
+                    <p><a href="#">相关产品</a></p>
+                </li>
+                <li class="col-md-2 col-xs-12">
+                    <p>服务保障</p>
+                    <p><a href="#">售后服务</a></p>
+                    <p><a href="#">在线客服</a></p>
+                </li>
+                <li class="col-md-3 col-xs-12 myphone">
+                    <p><i>4008-123-123</i></p>
+                    <p>周一至周五09 ：00 - 17 ：00</p>
+                    <p>（仅收市话费）</p>
+                    <span><i><b><span>24</span>小时在线客服</b></i></span>
+                </li>
+                <li class="col-md-2 col-xs-12">
+                    <img src="../images/ma.png" alt="" style="width:150px;height:auto">
+                </li>
+            </ul>
+        </div>
+        <div class="container bottom_copy">
+            <p>copyright &copy; <a href="index.html">嘉居网</a> （嘉居合作伙伴）All right reserevd. 丨 <a href="#">京ICP备</a>
+                1008611号</p>
+        </div>
+    </footer>
+    <!-- 登录开始 -->
+    <div class="loginbg">
+        <div class="login">
+            <div class="login_close">
+                <a href="javascript::" class="closeLogin"></a>
+            </div>
+            <div class="login_form">
+                <div>
+                    <span>用户名</span>
+                    <span class="login_text">
+                        <input type="text" placeholder="请输入账号/手机号" name="username" id="username">
+                    </span>
+                </div>
+                <div>
+                    <span>密码</span>
+                    <span class="login_text">
+                        <input type="password" placeholder="请输入密码" name="password" id="password">
+                    </span>
+                </div>
+                <div>
+                    <span>&nbsp;</span>
+                    <span class="login_reset">
+                        <input type="reset" value="登录">
+                        <a href="#">注册</a>
+                        <a href="phone_retrieval.html">忘记密码？</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 登陆结束 -->
+    <script>
+        function userLogin() {
+            let usBtn = document.getElementById('btn');
+            let bg = document.getElementsByClassName('loginbg')[0];
+            let close = document.getElementsByClassName('closeLogin')[0];
+            usBtn.onclick = () => {
+                bg.style.display = 'block';
+
+            }
+            close.onclick = () => {
+                bg.style.display = 'none';
+            }
+        }
+        (function () {
+
+            userLogin();//立即执行函数里面调用用户登陆效果框
+
+            const burger = document.querySelector(".burger");
+			const navMenu = document.querySelector("nav ul");
+
+			burger.addEventListener("click", () => {
+				burger.classList.toggle("active");
+				navMenu.classList.toggle("open");
+				navMenu.style.display = 'block';
+			});
+        })()
+    </script>
+</body>
+
+</html>

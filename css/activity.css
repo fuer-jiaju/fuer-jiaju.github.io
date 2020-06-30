@@ -3,7 +3,7 @@
     height: 380px;
     /* background: pink; */
     position: relative;
-    margin-bottom: 130px;
+    margin-bottom: 130px !important;
 }
 .activity>ul:hover>li img{
     transform: scale(1.05);
@@ -49,6 +49,9 @@
         text-align: left;
         margin-top: 130px;
         padding:20px;
+    }
+    .activity ul{
+        width: 100% !important;
     }
     .chakan{
         margin-top: 30px;

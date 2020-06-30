@@ -32,6 +32,9 @@
 	width: 400px;
 	margin: 0 auto;
 }
+.zhaohui select{
+	background: white;
+}
 .retrieve{
 	width: 100%;
     display: flex;
@@ -138,7 +141,14 @@
 	height: 100px;
 }
 .last_p{
-	margin-top: 10px;
+	margin-top: 20px;
+}
+.bottom-xian>a{
+	color: #333;
+	text-decoration: underline;
+}
+.zhaohui input{
+	padding: 0 5px;
 }
 @media only screen and (max-width:993px){
 	.zhaohui{

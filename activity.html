@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1,maximum-scale=1">    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/activity.css">
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -14,64 +13,70 @@
 
 <body>
     <header>
-        <div class="top-nav">
-            <div class="container header">
-                <div class="col-md-2 col-sm-2 logo">
-                    <img src="images/logo.png" alt="">
-                </div>
-                <div class="col-md-7 col-sm-8 daohang">
-                    <ul class="nav-top">
-                        <li>
-                            <a href="index.html">首页</a>
-                        </li>
-                        <li>
-                            <a href="products.html">商品</a>
-                        </li>
-                        <li>
-                            <a href="service.html">服务保障</a>
-                        </li>
-                        <li class="active">
-                            <a href="#">活动</a>
-                        </li>
-                        <li>
-                            <a href="tuandui.html">团队</a>
-                        </li>
-                        <li>
-                            <a href="aboutus.html">关于我们</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-2 fudaohang">
-                    <ul>
-                        <li>
-                            <a href="#">English</a>
-                        </li>
-                        <li>
-                            <a href="javascript:" class="loginBtn" >
-                                <span class="glyphicon glyphicon-user" id="btn"></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="glyphicon glyphicon-star"></span>
-                            </a>
-                        </li>
-                        <li class="sousuo">
-                            <input type="text" style="width: 100px; height: 30px;">
-                            <a href="#">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <nav class="container">
+			<div class="col-md-2 logo ">
+				<a href="#"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="burger">
+				<div class="top-line"></div>
+				<div class="middle-line"></div>
+				<div class="bottom-line"></div>
+			</div>
+			<ul class="col-md-7 nav-left">
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="products.html">商品</a>
+				</li>
+				<li>
+					<a href="service.html">服务保障</a>
+				</li>
+				<li class="active">
+					<a href="#">活动</a>
+				</li>
+				<li>
+					<a href="tuandui.html">团队</a>
+				</li>
+				<li>
+					<a href="aboutus.html">关于我们</a>
+				</li>
+				<li class="sousuo">
+					<input type="text" style="width: 100%; height: 30px;" placeholder="请输入关键字">
+					<a href="#">
+						<span class="glyphicon glyphicon-search"></span>
+					</a>
+				</li>
+			</ul>
+			<ul class="nav-right ">
+				<li class="none">
+					<a href="#">English</a>
+				</li>
+				<li class="denglu">
+					<a href="javascript:" class="loginBtn">
+						<span class="glyphicon glyphicon-user" id="btn"></span>
+					</a>
+				</li>
+				<li class="none">
+					<a href="#">
+						<span class="glyphicon glyphicon-star"></span>
+					</a>
+				</li>
+				<li class="sousuo none">
+					<input type="text" style="width: 100px; height: 30px;" placeholder="请输入关键字">
+					<a href="#">
+						<span class="glyphicon glyphicon-search"></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
         
+    </header>
+    <section>
         <div class="lunbo">
             <img src="images/changtiao2.jpg" alt="">
         </div>
-    </header>
-    <section>
         <div class="container">
             <div class="menu">
                 <div class="center">
@@ -83,11 +88,11 @@
                         <li class="col-md-7">
                             <img src="images/weare/9.jpg" alt="">
                         </li>
-                        <li class="col-md-9">
+                        <li class="col-md-9 col-xs-12">
                             <div>
                                 <h2><b>01</b></h2>
                                 <p>超值活动等你来领取</p>
-                                <p>超值活动等你来领取超值活超值活动等你来领取超值活动等你来领取</p>
+                                <p>复古式茶几原价999，现在卖给老铁们只需0.99！！</p>
                                 <p class="chakan">
                                     <span>
                                         ￥299
@@ -101,13 +106,13 @@
                     </ul>
                     <ul>
                         <li class="col-md-7">
-                            <img src="images/weare/9.jpg" alt="">
+                            <img src="images/menu20.jpg" alt="">
                         </li>
-                        <li class="col-md-9">
+                        <li class="col-md-9 col-xs-12">
                             <div>
                                 <h2><b>02</b></h2>
                                 <p>超值活动等你来领取</p>
-                                <p>超值活动等你来领取超值活超值活动等你来领取超值活动等你来领取</p>
+                                <p>极简风双人小沙发满188-100！！！</p>
                                 <p class="chakan">
                                     <span>
                                         ￥299
@@ -121,13 +126,13 @@
                     </ul>
                     <ul>
                         <li class="col-md-7">
-                            <img src="images/weare/9.jpg" alt="">
+                            <img src="images/menu21.jpg" alt="">
                         </li>
-                        <li class="col-md-9">
+                        <li class="col-md-9 col-xs-12">
                             <div>
                                 <h2><b>03</b></h2>
                                 <p>超值活动等你来领取</p>
-                                <p>超值活动等你来领取超值活超值活动等你来领取超值活动等你来领取</p>
+                                <p>极简风床头柜满188-100！！！</p>
                                 <p class="chakan">
                                     <span>
                                         ￥299
@@ -144,7 +149,7 @@
         </div>
     </section>
     <footer>
-		<div class="container">
+        <div class="container">
             <ul class=" nav_bottom">
                 <li class="col-md-2 col-xs-12">
                     <p>关于我们</p>
@@ -180,60 +185,70 @@
                 </li>
             </ul>
         </div>
-		<div class="container bottom_copy">
-			<p>copyright &copy; <a href="index.html">嘉居网</a> （嘉居合作伙伴）All right reserevd. 丨 <a href="#">京ICP备</a> 1008611号</p>
-		</div>
-	</footer>
+        <div class="container bottom_copy">
+            <p>copyright &copy; <a href="index.html">嘉居网</a> （嘉居合作伙伴）All right reserevd. 丨 <a href="#">京ICP备</a>
+                1008611号</p>
+        </div>
+    </footer>
     <!-- 登录开始 -->
     <div class="loginbg">
-            <div class="login">
-                <div class="login_close">
-                    <a href="javascript::" class="closeLogin"></a>
+        <div class="login">
+            <div class="login_close">
+                <a href="javascript::" class="closeLogin"></a>
+            </div>
+            <div class="login_form">
+                <div>
+                    <span>用户名</span>
+                    <span class="login_text">
+                        <input type="text" placeholder="请输入账号/手机号" name="username" id="username">
+                    </span>
                 </div>
-                <div class="login_form">
-                    <div>
-                        <span>用户名</span>
-                        <span class="login_text">
-                            <input type="text" placeholder="请输入账号/手机号" name="username" id="username">
-                        </span>
-                    </div>
-                    <div>
-                        <span>密码</span>
-                        <span class="login_text">
-                            <input type="password" placeholder="请输入密码" name="password" id="password">
-                        </span>
-                    </div>
-                    <div>
-                        <span>&nbsp;</span>
-                        <span class="login_reset">
-                            <input type="reset" value="登录">
-                            <a href="">注册</a>
-                            <a href="forget/phone_retrieval.html">忘记密码？</a>
-                        </span>
-                    </div>
+                <div>
+                    <span>密码</span>
+                    <span class="login_text">
+                        <input type="password" placeholder="请输入密码" name="password" id="password">
+                    </span>
+                </div>
+                <div>
+                    <span>&nbsp;</span>
+                    <span class="login_reset">
+                        <input type="reset" value="登录">
+                        <a href="forget/register.html">注册</a>
+                        <a href="forget/phone_retrieval.html">忘记密码？</a>
+                    </span>
                 </div>
             </div>
         </div>
-        <!-- 登陆结束 -->
-        <script>
-            function userLogin(){
-                let usBtn = document.getElementById('btn');
-                let bg = document.getElementsByClassName('loginbg')[0];
-                let close = document.getElementsByClassName('closeLogin')[0];
-                usBtn.onclick = () => {
-                    bg.style.display = 'block';
-                    
-                }
-                close.onclick = () => {
-                    bg.style.display = 'none';
-                }
+    </div>
+    <!-- 登陆结束 -->
+    <script>
+        function userLogin() {
+            let usBtn = document.getElementById('btn');
+            let bg = document.getElementsByClassName('loginbg')[0];
+            let close = document.getElementsByClassName('closeLogin')[0];
+            usBtn.onclick = () => {
+                bg.style.display = 'block';
+
             }
-            (function () {
-    
-                userLogin();//立即执行函数里面调用用户登陆效果框
-    
-            })()
-        </script>
+            close.onclick = () => {
+                bg.style.display = 'none';
+            }
+        }
+        (function () {
+
+            userLogin();//立即执行函数里面调用用户登陆效果框
+
+            const burger = document.querySelector(".burger");
+            const navMenu = document.querySelector("nav ul")
+
+            burger.addEventListener("click", () => {
+                burger.classList.toggle("active");
+                navMenu.classList.toggle("open");
+				navMenu.style.display = 'block';
+            });
+
+        })()
+    </script>
 </body>
 
 </html>
